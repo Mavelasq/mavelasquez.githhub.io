@@ -197,21 +197,5 @@
             </div>
         </section>
     </main>
-
-    <script>
-        // reuse the same toggle logic (keeps theme consistent between pages)
-        (function(){
-          const body = document.body;
-          const saved = localStorage.getItem('theme');
-          if (saved === 'dark') body.classList.replace('light','dark');
-          // keyboard shortcut: "d" toggles dark mode
-          document.addEventListener('keydown', (e) => {
-            if (e.key.toLowerCase() === 'd') {
-              body.classList.toggle('dark'); body.classList.toggle('light');
-              localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
-            }
-          });
-        })();
-    </script>
 </body>
 </html>
