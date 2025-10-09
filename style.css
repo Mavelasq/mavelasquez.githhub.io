@@ -142,7 +142,7 @@ html,body {
 
 /* Adjustments for link colours */
 a {
-    color: blue; /* linkcolor/citecolor */
+    color: black; /* linkcolor/citecolor */
     text-decoration: none;
 }
 a:hover {
