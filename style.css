@@ -208,6 +208,28 @@ a:hover {
         text-indent: 0;
     }
 }
+/* Download CV section */
+.download-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.download-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--hr);
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.download-link:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
 
 /* Mobile adjustments (to be more readable on very small screens) */
 @media (max-width:520px){
@@ -225,4 +247,5 @@ a:hover {
   .nav-links {
     gap: 16px;
   }
+  
 }
