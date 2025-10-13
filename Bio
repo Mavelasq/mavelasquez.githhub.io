@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Miguel A. Velásquez Vásquez — CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="light">
+  <header class="topbar">
+    <div class="container topbar-content">
+      <h1 class="name">Miguel A. Velásquez Vásquez</h1>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Bio</a>
+        <a href="cv.html" class="nav-link">Research</a>
+      </nav>
+    </div>
+  </header>
+
+    <main class="container cv-content">
+        <section>
+            <h2 class="section-title">Education</h2>
+            
+            <div class="cv-item-wrapper">
+                <span class="cv-item-year">31/12/2024</span>
+                <p class="cv-item-detail"><span class="smallcaps">PhD</span> in Psychology, Tulane University.
+                <br><em>Dissertation:</em> Investigating the effects of musical training and neurofeedback on cognitive enhancement and brain plasticity.
+                <br><em>Advisor:</em> Dr. Paul J. Colombo.</p>
+            </div>
+
+            <div class="cv-item-wrapper">
+                <span class="cv-item-year">07/05/2021</span>
+                <p class="cv-item-detail"><span class="smallcaps">M.Sc.</span> in Psychology, Tulane University.
+                <br><em>Thesis:</em> The effects of neural entrainment on sensorimotor synchronization.
+                <br><em>Advisor:</em> Dr. Paul J. Colombo.</p>
+            </div>
+
+            <div class="cv-item-wrapper">
+                <span class="cv-item-year">09/05/2014</span>
+                <p class="cv-item-detail"><span class="smallcaps">B.S.</span> in Psychology with Honors, University of New Orleans.
+                <br><em>Thesis:</em> Reciprocal relation between psychophysiological patterns of stress responsivity and sleep.
+                <br><em>Advisor:</em> Dr. Elizabeth A. Shirtcliff.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
