@@ -169,7 +169,7 @@ body {
 
 /* Adjustments for link colours */
 a {
-    color: blue; /* linkcolor/citecolor */
+    color: black; /* linkcolor/citecolor */
     text-decoration: none;
 }
 a:hover {
@@ -227,7 +227,7 @@ a:hover {
 
 .download-link:hover {
   background: var(--accent);
-  color: #fff;
+  color: black;
   border-color: var(--accent);
 }
 
